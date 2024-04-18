@@ -1,0 +1,8 @@
+An ISBN (International Standard Book Number) is a ten-digit code which uniquely identifies a book. 
+The first nine digits represent Group, Publisher and Title of the book and the last digit is used as a checksum
+(to check whether the given ISBN is valid). 
+Each of the digits can take any value between 0 and 9. In
+addition, the last digit may also take a value X (stands for 10). 
+To verify an ISBN, calculate 10 times the
+first digit, plus 9 times the second digit, plus 8 times the third and so on until we add (1 time) the last digit.
+If the number 11 can divide the sum (no remainder), the code is a valid ISBN
